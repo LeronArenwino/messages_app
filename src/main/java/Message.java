@@ -5,6 +5,15 @@ public class Message {
     String messageAuthor;
     String messageDate;
 
+    public Message(){
+    }
+
+    public Message(String message, String messageAuthor, String messageDate) {
+        this.message = message;
+        this.messageAuthor = messageAuthor;
+        this.messageDate = messageDate;
+    }
+
     public int getMessageId() {
         return messageId;
     }
